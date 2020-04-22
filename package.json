@@ -31,7 +31,7 @@
     "test-types": "node utils/doclint/generate_types && tsc --version && tsc -p utils/doclint/generate_types/test/",
     "unit-bundle": "mocha --config mocha-config/browser-bundle-tests.js",
     "update-protocol-d-ts": "node utils/protocol-types-generator",
-    "test-install": "./scripts/test-install.sh"
+    "test-install": "scripts/test-install.sh"
   },
   "files": [
     "lib/",
