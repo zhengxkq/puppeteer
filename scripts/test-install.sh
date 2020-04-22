@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+set -e
 
 # Pack the module into a tarball
 npm pack
