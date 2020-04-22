@@ -2,7 +2,7 @@
 
 # Pack the module into a tarball
 npm pack
-tarball=$(realpath puppeteer-*.tgz)
+tarball="$(realpath puppeteer-*.tgz)"
 cd "$(mktemp -d)"
 npm init --yes
 # Check we can install from the tarball.
