@@ -35,7 +35,7 @@ jobs:
         - PUPPETEER_PRODUCT=firefox npm install
       script:
         - npm run test-install
-        - ./travis/chromium.sh
+        - travis/chromium.sh
     - node_js: "10.19.0"
       dist: trusty
       env:
