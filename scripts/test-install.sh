@@ -11,4 +11,6 @@ npm init --yes
 # 1. we publish the right files in the `files` list from package.json
 # 2. The install script works and correctly exits without errors
 # 3. Requiring Puppeteer from Node works.
-npm install "${tarball}" && node --eval="require('puppeteer')" && rm "${tarball}";
+npm install "${tarball}"
+node --eval="require('puppeteer')"
+rm "${tarball}"
